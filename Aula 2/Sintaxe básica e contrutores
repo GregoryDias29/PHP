@@ -1,0 +1,59 @@
+Sintaxe básica e Construtores
+Quando falamos de sintaxe, estamos falando do modo como escrevemos nossos códigos na linguagem. As principais características de sintaxe da linguagem PHP são:
+
+Instruções separada por ponto e vírgula (;)
+Blocos de código utilizando chaves {}
+Nomes de variáveis iniciando com $
+Um exemplo de código utilizando a linguagem PHP:
+
+<?php
+
+$a = 11;
+$b = 21;
+
+if ($a > $b) {
+    echo "Realmente A é maior do que B <br>";
+} elseif ($b == 20) {
+    echo "B é igual a 20";
+} elseif ($a == 10) {
+    echo "A é igual a 10";
+} else {
+    echo "Nenhuma condição é verdadeira";
+}
+
+Observação
+Observação
+OBS: Não se preocupe em entender o código acima, vamos estudar a linguagem passo a passo até chegarmos nesse ponto. O importante agora é ver as características de sintaxe citadas acima.
+
+O PHP possui palavras que são utilizadas para executar recursos da linguagem. Essas palavras são chamadas de construtores ou palavras reservadas. Elas são usadas para realizar importantes tarefas da linguagem e não podem ser usadas para nomear recursos do projeto.
+
+Veja abaixo a lista de palavras reservadas na versão 7.4 do PHP:
+__________________________________________________________________________________
+|__halt_compiler() |   abstract|and|array()|as
+|__________________________________________________________________________________
+||break            |   callable (a partir do PHP 5.4) |case |catch |class
+|__________________________________________________________________________________
+||clone            |   const|continue|declare|default
+|__________________________________________________________________________________
+||die()            |   do |echo |else |elseif
+|__________________________________________________________________________________
+||empty()          |enddeclare |endfor |endforeach |endif
+|__________________________________________________________________________________
+|endswitch         |endwhile |eval() |exit() |extends
+|__________________________________________________________________________________
+|final             |finally (a partir do PHP 5.5)|for|foreach |function
+|__________________________________________________________________________________
+|global            |goto (a partir do PHP 5.3) |if | implements | include|
+|__________________________________________________________________________________
+|include_once      | instanceof| insteadof (a partir do PHP 5.4) | interface | isset()|
+|__________________________________________________________________________________
+|list()            | namespace (a partir do PHP 5.3) | new | or | print|
+|__________________________________________________________________________________
+|private           | protected | public | require | require_once |
+|__________________________________________________________________________________
+|return            | static | switch | throw | trait (a partir do PHP 5.4)        |
+|___________________________        |_______
+|try               | unset()| use| var| while     |
+|___________________________________
+|xor               |  yield (a partir do PHP 5.5)
+----------------------------------------

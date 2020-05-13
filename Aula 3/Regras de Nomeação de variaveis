@@ -1,0 +1,19 @@
+Regras de nomeação de variáveis
+Na linguagem PHP existem algumas regras para definição do nome de variáveis:
+
+Os nomes de variáveis sempre começam com o caractere $ (cifrão). Exemplo: $idade
+São sensíveis à letra, ou seja, $Valor é diferente de $valor.
+Um nome de variável válido deve iniciar com um sublinhado OU uma letra, nunca deve ser iniciado com um número ou caractere especial.
+Seguindo as regras acima, são válidos caracteres de a-z, números e caracteres das tabelas ASCII de 128 a 255.
+$this é uma variável especial da linguagem e não pode ser atribuída. Você a entenderá nos próximos cursos quando estudar Orientação a Objetos.
+Outro detalhe bem importante quanto ao nome das variáveis é o significado. Ao invés de declarar variáveis com nomes genéricos como no exemplo abaixo:
+
+$a1 = "Elton";
+$a2 = "Fonseca";
+$a3 = 28;
+
+Devemos sempre declarar nomes de variáveis que façam sentido ao contexto de desenvolvimento, por exemplo:
+
+$nome = "Elton";
+$sobrenome = "Fonseca";
+$idade = 28;

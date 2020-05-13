@@ -1,0 +1,7 @@
+Regras para nomeação de constantes
+Algumas observações quanto ao uso de constantes:
+
+Assim como as variáveis, fazem distinção entre letras maiúsculas e minúsculas;
+O nome de uma constante deve iniciar com letra ou sublinhado;
+Constantes não são prefixadas com o caractere $;
+Existe um padrão (uma boa prática e não uma regra) entre a comunidade de desenvolvedores de criar constantes sempre em letra maiúscula.
