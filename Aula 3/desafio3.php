@@ -1,4 +1,5 @@
 <?php
+// aapresentar todos os intens do array em uma unica linha
     $arr = [
                 "1"=>"Namibia,", 
                 "2"=>"Nauru,", 
