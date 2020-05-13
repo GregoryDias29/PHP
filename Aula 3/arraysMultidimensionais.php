@@ -27,3 +27,21 @@ $numeros2 = [
 echo "segundo array pegando o subArray: ";
 echo $numeros2 [2][1][0];
 
+$cursos = [
+    "php" => [
+        "nome_curso" => "Curso de PHP",
+        "versao_ferramenta" => 7.4,
+        "carga_horaria" => 40,
+        "status" => true 
+    ],
+
+    "java" => [
+        "nome_curso" => "Curso de Java",
+        "versao_ferramenta" => 11.5,
+        "carga_horaria" => 30,
+        "status" => false 
+    ]
+];
+echo"<br><br>";
+echo $cursos ["php"]["nome_curso"]; //damos o echo colocamos o nome da variavel, depois colocamos a chave e a proxima cahve
+echo $cursos ["java"]["nome_curso"];
